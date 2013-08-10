@@ -1,0 +1,32 @@
+body {
+	background-color:#4e5658;
+	color: #FFF;
+	font-family: 'Arvo';
+	font-size: 12px;
+	padding:0
+
+}
+h1 {
+	color: #c5eb2c;
+	font-size: 4em;
+}
+a, a:hover, a:visited{
+	color: #FFF;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.arc-text{
+	font-size: 4em;
+	margin-bottom: 70px;
+}
+
+#arctext-2 {
+	margin-top: 70px;
+}
+.container{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+}
