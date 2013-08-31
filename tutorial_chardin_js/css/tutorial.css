@@ -1,0 +1,26 @@
+body{
+	background-color:#4e5658;
+	color: #FFF;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-size: 4rem;
+}
+hr.space{
+	border: none;
+}
+.container{
+	margin: 0 auto;
+	max-width: 960px;
+	text-align: center;
+	width: 100%;
+}
+.text-body{
+	font-size: 1rem;
+	margin: 0 auto;
+	text-align: left;
+	width: 50%;
+
+}

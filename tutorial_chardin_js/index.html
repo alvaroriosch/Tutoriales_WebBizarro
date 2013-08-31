@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tutorial chardinjs</title>
+		<link rel="stylesheet" type="text/css" href="css/tutorial.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/chardinjs.css" media="screen" />
+	</head>
+	<body>
+		<div class="container">
+			<hr class="space"/>
+			<h1>WebBizarro</h1>
+			<img src="images/Mario8BitSprite.png" data-intro="Una excelente imagen del clasico mario del sistema NES" data-position="right" />
+			<hr class="space"/>
+			<div class="text-body" data-intro="Un pequeño texto sacado de la Wikipedia" data-position="left">
+				Super Mario es un videojuego de plataformas, diseñado por Shigeru Miyamoto, lanzado el 13 de septiembre de 1985 y producido por la compañía Nintendo, para la consola Nintendo Entertainment System (NES).
+			</div>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/chardinjs.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('body').chardinJs('start');
+			});
+		</script>
+	</body>
+</html>
